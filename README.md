@@ -1,6 +1,6 @@
 # Angular Bank – Sistema Bancario Full Stack
 
-Proyecto académico Full Stack que implementa un sistema bancario básico utilizando **Angular**, **Spring Boot**, **PostgreSQL** y **Docker**.
+Proyecto  Full Stack que implementa un sistema bancario básico utilizando **Angular**, **Spring Boot**, **PostgreSQL** y **Docker**.
 
 La aplicación permite la gestión de clientes, cuentas, movimientos bancarios y reportes financieros, todo desplegado mediante contenedores Docker.
 
@@ -39,8 +39,6 @@ angular-bank/
 ├── postman/ # Colección Postman para pruebas
 └── README.md
 
-yaml
-Copiar código
 
 ---
 
@@ -105,21 +103,15 @@ Dentro del repositorio se incluye una carpeta postman/ que contiene:
 Colección Postman (Angular Bank API.postman_collection.json)
 
 Variable base_url configurada como:
-
-arduino
-Copiar código
 http://localhost:8081
 Esto permite validar todos los endpoints de forma inmediata.
 
 📌 Notas importantes
 La base de datos se ejecuta dentro de un contenedor Docker.
-
 Los datos se persisten en un volumen Docker.
-
 El frontend consume la API REST expuesta por el backend.
-
 Todo el sistema puede levantarse con un solo comando.
 
 👤 Autor
-Francisco Luzuriaga
-Proyecto académico – Entrega final Full Stack
+J. Francisco Luzuriaga
+Ejercicio FullStack – Entrega final
